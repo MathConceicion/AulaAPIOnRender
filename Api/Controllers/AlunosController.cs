@@ -47,6 +47,7 @@ public class AlunosController : ControllerBase
         });
     }
 
+
     // POST: api/alunos/1
     [HttpPost]
     public IActionResult Create([FromBody] NovoAlunoRequest request)
